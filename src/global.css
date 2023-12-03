@@ -1,80 +1,105 @@
-/**
- * WHAT IS THIS FILE?
- *
- * Globally applied styles. No matter which components are in the page or matching route,
- * the styles in here will be applied to the Document, without any sort of CSS scoping.
- *
- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Variables */
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
+	@apply [--margin-x:1rem]
+    [--main-sidebar-width:4.5rem]
+    [--sidebar-panel-width:230px]
+    [--sidebar-panel-min-width:64px]
+    md:[--margin-x:1.5rem]
+    lg:[--main-sidebar-width:5rem]
+    lg:[--sidebar-panel-width:240px]
+    xl:[--margin-x:4rem];
 }
 
+.has-min-sidebar {
+	@apply xl:[--margin-x:2.5rem];
+}
+
+.is-sidebar-open {
+	@apply xl:[--margin-x:1.5rem];
+}
+
+/* Basic styles */
 html {
-  line-height: 1;
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
+	@apply h-full overflow-x-hidden [text-rendering:optimizeLegibility] [-webkit-tap-highlight-color:transparent];
+}
+
+html.dark {
+	@apply [color-scheme:dark];
+}
+
+[x-cloak],
+[data-x-cloak] {
+	@apply !hidden;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  line-height: inherit;
+	@apply bg-slate-100 font-sans text-sm leading-5 text-slate-500  antialiased [text-rendering:optimizeLegibility] dark:bg-navy-800 dark:text-navy-200 dark:[color-scheme:dark];
 }
 
-/**
- * WHAT IS THIS FILE?
- *
- * Globally applied styles. No matter which components are in the page or matching route,
- * the styles in here will be applied to the Document, without any sort of CSS scoping.
- *
- */
-html {
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    "Noto Sans",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol",
-    "Noto Color Emoji";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply text-slate-900 dark:text-gray-100 font-bold;
 }
 
-body {
-  padding: 0;
-  line-height: inherit;
+h1 {
+	@apply text-4xl;
+}
+
+h2 {
+	@apply text-3xl;
+}
+
+h3 {
+	@apply text-2xl;
+}
+
+h4 {
+	@apply text-xl;
+}
+
+h5 {
+	@apply text-lg;
+}
+
+h6 {
+	@apply text-base;
+}
+
+/* Scrollbar styles */
+.is-scrollbar-hidden {
+	@apply [scrollbar-width:none]; /* Firefox */
+}
+
+.tab-btn {
+	@apply py-3 
+	block
+	w-full
+	px-4  
+	items-center 
+	gap-x-2 
+	text-sm 
+	font-semibold
+	tracking-widest
+	rounded-lg 
+	border 
+	border-teal-500 
+	bg-transparent
+	disabled:opacity-50 
+	disabled:pointer-events-none 
+	dark:focus:outline-none 
+	dark:focus:ring-1 
+	text-navy-900 dark:text-slate-200
+	dark:focus:ring-gray-600;
+}
+
+.tab-btn.active {
+	@apply bg-teal-700 hover:bg-teal-600 text-white;
 }
