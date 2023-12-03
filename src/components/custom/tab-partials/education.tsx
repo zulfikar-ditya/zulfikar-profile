@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { EducationItem } from "./partials/education-item";
 
 export const Educations = component$(() => {
-	let educations = [
+	const educations = [
 		{
 			name: "SMKN 1 Jenangan",
 			major: "Software Engineering",
@@ -27,8 +27,8 @@ export const Educations = component$(() => {
 			<div class="max-w-lg mx-auto">
 				<h2 class="my-10 text-center">Education Background.</h2>
 
-				{educations.map((education) => {
-					return <EducationItem {...education} />;
+				{educations.map((education, educationIndex) => {
+					return <EducationItem key={educationIndex} {...education} />;
 				})}
 			</div>
 		</>

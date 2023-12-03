@@ -1,9 +1,4 @@
-import {
-	component$,
-	Slot,
-	useStyles$,
-	useVisibleTask$,
-} from "@builder.io/qwik";
+import { component$, Slot, useStyles$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import type { RequestHandler } from "@builder.io/qwik-city";
 

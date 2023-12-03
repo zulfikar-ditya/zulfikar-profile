@@ -96,6 +96,7 @@ export const Experience = component$(() => {
 			{experiences.map((experience, experienceIndex) => {
 				return (
 					<ExperienceItem
+						key={experienceIndex}
 						title={experience.title}
 						company={experience.company}
 						start={experience.start}

@@ -1,4 +1,4 @@
-import { component$, $, useSignal, useTask$ } from "@builder.io/qwik";
+import { component$, $, useSignal } from "@builder.io/qwik";
 import { server$ } from "@builder.io/qwik-city";
 
 // get the theme cookie

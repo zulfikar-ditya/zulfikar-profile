@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { AwardsItem } from "./partials/award-item";
 
 export const Awards = component$(() => {
-	let awards = [
+	const awards = [
 		{
 			title: "2nd Position KKSI Smart School Field 2021",
 			year: "2021",
@@ -33,8 +33,8 @@ export const Awards = component$(() => {
 			<div class="max-w-lg mx-auto">
 				<h2 class="my-10 text-center">Awards.</h2>
 				<ol class="relative border-l border-gray-200 dark:border-gray-700 ">
-					{awards.map((award) => {
-						return <AwardsItem {...award} />;
+					{awards.map((award, awardIndex) => {
+						return <AwardsItem key={awardIndex} {...award} />;
 					})}
 				</ol>
 			</div>
