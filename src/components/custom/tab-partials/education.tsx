@@ -24,7 +24,7 @@ export const Educations = component$(() => {
 	];
 	return (
 		<>
-			<div class="max-w-lg mx-auto">
+			<div class="max-w-lg mx-auto ">
 				<h2 class="my-10 text-center">Education Background.</h2>
 
 				{educations.map((education, educationIndex) => {

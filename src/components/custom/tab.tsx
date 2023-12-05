@@ -9,7 +9,7 @@ export const Tab = component$(() => {
 	const TabActive = useSignal("about");
 	return (
 		<>
-			<section class=" pt-20" id="content-section">
+			<section class="pt-20 mt-10 px-4 lg:p-0" id="content-section">
 				{/* TAB */}
 				<div class="">
 					<div class="is-scrollbar-hidden flex">
@@ -18,7 +18,7 @@ export const Tab = component$(() => {
 								<div class="tabs-list flex flex-row flex-wrap lg:flex-nowrap gap-4">
 									<button
 										onClick$={() => (TabActive.value = "about")}
-										class={`tab-btn block w-full ${
+										class={`tab-btn block w-full whitespace-nowrap ${
 											TabActive.value === "about" ? "active" : ""
 										}`}
 									>
@@ -26,7 +26,7 @@ export const Tab = component$(() => {
 									</button>
 									<button
 										onClick$={() => (TabActive.value = "experience")}
-										class={`tab-btn block w-full ${
+										class={`tab-btn block w-full whitespace-nowrap ${
 											TabActive.value === "experience" ? "active" : ""
 										}`}
 									>
@@ -34,7 +34,7 @@ export const Tab = component$(() => {
 									</button>
 									<button
 										onClick$={() => (TabActive.value = "weapons")}
-										class={`tab-btn block w-full ${
+										class={`tab-btn block w-full whitespace-nowrap ${
 											TabActive.value === "weapons" ? "active" : ""
 										}`}
 									>
@@ -42,7 +42,7 @@ export const Tab = component$(() => {
 									</button>
 									<button
 										onClick$={() => (TabActive.value = "education")}
-										class={`tab-btn block w-full ${
+										class={`tab-btn block w-full whitespace-nowrap ${
 											TabActive.value === "education" ? "active" : ""
 										}`}
 									>
@@ -50,7 +50,7 @@ export const Tab = component$(() => {
 									</button>
 									<button
 										onClick$={() => (TabActive.value = "award")}
-										class={`tab-btn block w-full ${
+										class={`tab-btn block w-full whitespace-nowrap ${
 											TabActive.value === "award" ? "active" : ""
 										}`}
 									>

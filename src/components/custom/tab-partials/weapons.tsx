@@ -16,10 +16,10 @@ export const Weapons = component$(() => {
 	return (
 		<>
 			<h2 class="text-center mt-10">Weapons</h2>
-			<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+			<div class="max-w-[85rem] px-0 py-10 sm:px-6 lg:px-0 lg:py-14 mx-auto">
+				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+					<div class="group card__weapon">
+						<div class="card__weapon__head">
 							<ImgPhp class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -28,8 +28,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgJavascript class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -38,8 +38,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgTypescript class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -48,8 +48,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgGolang class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -58,8 +58,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgLaravel class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -68,8 +68,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgPgsql class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -78,8 +78,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgMysql class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -88,8 +88,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgJquery class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -98,8 +98,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgReact class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -108,8 +108,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgNext class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -118,8 +118,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgTailwindCss class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
@@ -128,8 +128,8 @@ export const Weapons = component$(() => {
 							</p>
 						</div>
 					</div>
-					<div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-						<div class="flex flex-col justify-center items-center rounded-t-xl p-10">
+					<div class="card__weapon">
+						<div class="card__weapon__head">
 							<ImgBootstrap class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">

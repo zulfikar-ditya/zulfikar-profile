@@ -103,3 +103,31 @@ h6 {
 .tab-btn.active {
 	@apply bg-teal-700 hover:bg-teal-600 text-white;
 }
+
+.card__weapon {
+	@apply flex 
+	flex-col 
+	h-full 
+	bg-white 
+	border 
+	border-gray-200 
+	drop-shadow-md 
+	rounded-xl 
+	dark:bg-slate-900 
+	dark:border-gray-700 
+	dark:shadow-slate-700/[.7]
+	hover:scale-110
+	hover:-translate-y-1
+	hover:shadow-lg
+	dark:hover:shadow-teal-500
+	hover:transition-all;
+}
+
+.card__weapon__head {
+	@apply flex 
+	flex-col 
+	justify-center 
+	items-center 
+	rounded-t-xl 
+	p-10;
+}
