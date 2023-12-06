@@ -20,11 +20,13 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-	title: "Zulfikar Ditya A - Web Development Enthusiast.",
+	title:
+		"Zulfikar Ditya A - A Laravel Maestro: Crafting Elegant and Efficient Web Solutions.",
 	meta: [
 		{
 			name: "description",
-			content: "Zulfikar ditya - Web Development Enthusiast",
+			content:
+				"Zulfikar ditya A - A Laravel Maestro: Crafting Elegant and Efficient Web Solutions",
 		},
 		{
 			name: "keywords",

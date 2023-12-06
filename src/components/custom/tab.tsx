@@ -61,7 +61,7 @@ export const Tab = component$(() => {
 						</div>
 					</div>
 
-					<div class="tab-content pt-4 container mx-auto">
+					<div class="tab-content py-4 container mx-auto">
 						<div class={` ${TabActive.value != "about" ? "hidden" : ""}`}>
 							<AboutMe />
 						</div>

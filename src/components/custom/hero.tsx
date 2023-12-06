@@ -18,7 +18,7 @@ export const Hero = component$(() => {
 						<h1>Zulfikar Ditya A.</h1>
 
 						<h2 class="font-semibold tracking-wider text-2xl text-slate-700 dark:text-navy-200">
-							Web Development Enthusiast.
+							A Laravel Maestro: Crafting Elegant and Efficient Web Solutions
 						</h2>
 
 						<IconSocial />
