@@ -11,6 +11,7 @@ export const Experience = component$(() => {
 			description: [
 				"Make and optimized api for web app.",
 				"Integrate with hue huy api using laravel.",
+				"Integrate with aku hadir api using laravel.",
 				"Write and contribute to data manipulation in web app",
 				"Coordinate with frontend developer to make a better api as requirement",
 				"Write clean and readble code in php laravel.",
