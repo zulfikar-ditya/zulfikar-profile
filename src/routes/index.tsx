@@ -2,7 +2,6 @@ import { component$, useVisibleTask$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { ThemeToggle, getCookie } from "../components/custom/dark-mode-toggle";
 import { Hero } from "~/components/custom/hero";
-import { Tab } from "~/components/custom/tab";
 import { AboutMe } from "~/components/custom/tab-partials/about-me";
 import { Experience } from "~/components/custom/tab-partials/experience";
 import { Weapons } from "~/components/custom/tab-partials/weapons";
