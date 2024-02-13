@@ -5,7 +5,10 @@ import { IconSocial } from "./iconSocial";
 export const Hero = component$(() => {
 	return (
 		<>
-			<section id="main-profile" class="container mx-auto mt-10 p-4">
+			<section
+				id="main-profile"
+				class="container mx-auto mt-10 p-4 min-h-screen md:min-h-0"
+			>
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 					<div class="flex justify-center items-center lg:justify-end w-full lg:w-10/12">
 						<ImgProfile

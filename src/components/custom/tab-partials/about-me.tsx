@@ -4,7 +4,7 @@ export const AboutMe = component$(() => {
 	return (
 		<>
 			<div class="text-center">
-				<h2 class="my-10">About Me</h2>
+				<h2 class="mb-10 mt-5">About Me</h2>
 				<div class="text-slate-700 dark:text-navy-200 my-4">
 					<p class="mt-4 text-base max-w-md mx-auto">
 						In the dynamic realm of web development, I stand as a passionate

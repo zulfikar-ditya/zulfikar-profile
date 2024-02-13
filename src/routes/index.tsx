@@ -3,6 +3,11 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { ThemeToggle, getCookie } from "../components/custom/dark-mode-toggle";
 import { Hero } from "~/components/custom/hero";
 import { Tab } from "~/components/custom/tab";
+import { AboutMe } from "~/components/custom/tab-partials/about-me";
+import { Experience } from "~/components/custom/tab-partials/experience";
+import { Weapons } from "~/components/custom/tab-partials/weapons";
+import { Educations } from "~/components/custom/tab-partials/education";
+import { Awards } from "~/components/custom/tab-partials/Award";
 
 export default component$(() => {
 	useVisibleTask$(async () => {
@@ -13,8 +18,30 @@ export default component$(() => {
 	return (
 		<>
 			<ThemeToggle />
-			<Hero />
-			<Tab />
+
+			<div class="mb-10">
+				<Hero />
+			</div>
+
+			<div class="bg-slate-200 dark:bg-slate-700 pb-10 pt-5 px-8 md:px-0">
+				<AboutMe />
+			</div>
+
+			<div class="px-8 md:px-0">
+				<Experience />
+			</div>
+
+			<div class="bg-slate-200 dark:bg-slate-700 pt-5 pb-10 px-8 md:px-0">
+				<Weapons />
+			</div>
+
+			<div class="px-8 md:px-0">
+				<Educations />
+			</div>
+
+			<div class="bg-slate-200 dark:bg-slate-700 pt-5 pb-10 px-8 md:px-0">
+				<Awards />
+			</div>
 		</>
 	);
 });

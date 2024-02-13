@@ -31,7 +31,7 @@ export const Awards = component$(() => {
 	return (
 		<>
 			<div class="max-w-lg mx-auto px-4 lg:px-0">
-				<h2 class="my-10 text-center">Awards.</h2>
+				<h2 class="mt-5 mb-10 text-center">Awards.</h2>
 				<ol class="relative border-l border-gray-200 dark:border-gray-700 ">
 					{awards.map((award, awardIndex) => {
 						return <AwardsItem key={awardIndex} {...award} />;

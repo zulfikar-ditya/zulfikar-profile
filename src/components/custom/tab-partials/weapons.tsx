@@ -15,7 +15,7 @@ import ImgBootstrap from "~/media/bootstrap.png?jsx";
 export const Weapons = component$(() => {
 	return (
 		<>
-			<h2 class="text-center mt-10">Weapons</h2>
+			<h2 class="text-center mt-5">Weapons</h2>
 			<div class="max-w-[85rem] px-0 pt-10 sm:px-6 lg:px-0 lg:pt-14 mx-auto">
 				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 					<div class="group card__weapon">
