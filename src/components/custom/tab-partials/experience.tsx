@@ -37,7 +37,7 @@ export const Experience = component$(() => {
 			title: "Freelance Laravel Developer",
 			company: "Intive Studio",
 			start: "June 2023",
-			end: "Present",
+			end: "March 2024",
 			description: [
 				"work as Laravel Fullstack developer, work with teams as a support developer, developing web app like ERP system.",
 				"Work as Fullstack Laravel developer, work as teams, develop custom EPR web app",

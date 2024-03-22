@@ -7,6 +7,7 @@ import { Experience } from "~/components/custom/tab-partials/experience";
 import { Weapons } from "~/components/custom/tab-partials/weapons";
 import { Educations } from "~/components/custom/tab-partials/education";
 import { Awards } from "~/components/custom/tab-partials/Award";
+import { Courses } from "~/components/custom/tab-partials/courses";
 
 export default component$(() => {
 	useVisibleTask$(async () => {
@@ -32,6 +33,10 @@ export default component$(() => {
 
 			<div class="bg-slate-200 dark:bg-slate-700 pt-5 pb-10 px-8 md:px-0">
 				<Weapons />
+			</div>
+
+			<div class="px-8 md:px-0">
+				<Courses />
 			</div>
 
 			<div class="px-8 md:px-0">

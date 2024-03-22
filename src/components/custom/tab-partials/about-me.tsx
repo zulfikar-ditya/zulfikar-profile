@@ -39,16 +39,6 @@ export const AboutMe = component$(() => {
 						methodologies to expand my skillset.
 					</p>
 					<p class="mt-4 text-base max-w-md mx-auto">
-						In the dynamic realm of web development, I stand as a passionate
-						Laravel developer, adept at transforming ideas into tangible digital
-						experiences. My journey began with a fascination for computers,
-						which blossomed into a deep-seated passion for unraveling the
-						intricacies of web development. Armed with a strong background in
-						web application development, I embarked on a mission to create
-						efficient and innovative solutions that empower businesses and
-						enhance lives.
-					</p>
-					<p class="mt-4 text-base max-w-md mx-auto">
 						My commitment to excellence extends beyond the digital realm. I'm an
 						avid learner, constantly exploring new frontiers of knowledge and
 						expanding my horizons. My passion for web development is not merely

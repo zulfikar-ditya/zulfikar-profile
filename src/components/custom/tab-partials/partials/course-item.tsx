@@ -1,23 +1,15 @@
 import { component$ } from "@builder.io/qwik";
 
-interface ExperienceItemProps {
+interface CourseItemProps {
 	title: string;
-	company: string;
-	start: string;
-	end: string;
-	description: Array<string>;
+	place: string;
 }
 
-export const ExperienceItem = component$((props: ExperienceItemProps) => {
+export const CourseItem = component$((props: CourseItemProps) => {
 	return (
 		<>
 			<div class="my-4">
 				<div>
-					<div class="ps-2 my-2 first:mt-0">
-						<h3 class="text-xs font-medium uppercase">
-							{props.start} - {props.end}
-						</h3>
-					</div>
 					<div class="flex gap-x-3">
 						<div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-gray-700">
 							<div class="relative z-10 w-7 h-7 flex justify-center items-center">
@@ -47,13 +39,8 @@ export const ExperienceItem = component$((props: ExperienceItemProps) => {
 								{props.title}
 							</h3>
 							<p class="mt-1 text-md text-slate-700 dark:text-navy-200 font-semibold">
-								{props.company}
+								{props.place}
 							</p>
-							<ul class="list-disc list-inside text-base text-slate-700 dark:text-navy-200">
-								{props.description.map((item) => {
-									return <li key={item.toString()}>{item}</li>;
-								})}
-							</ul>
 						</div>
 					</div>
 				</div>

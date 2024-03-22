@@ -1,6 +1,10 @@
 const colors = require("tailwindcss/colors");
 const defaultTheme = require("tailwindcss/defaultTheme");
 
+const {
+	default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+
 const navyColor = {
 	50: "#E7E9EF",
 	100: "#C2C9D6",
@@ -33,7 +37,18 @@ module.exports = {
 				inter: ["Inter", ...defaultTheme.fontFamily.sans],
 			},
 			colors: { ...customColors },
+			animation: {
+				scroll:
+					"scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+			},
+			keyframes: {
+				scroll: {
+					to: {
+						transform: "translate(calc(-50% - 0.5rem))",
+					},
+				},
+			},
 		},
 	},
-	plugins: [],
+	plugins: [flattenColorPalette],
 };

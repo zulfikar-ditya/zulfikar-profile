@@ -27,9 +27,11 @@ export const Educations = component$(() => {
 			<div class="max-w-lg mx-auto ">
 				<h2 class="my-10 text-center">Education Background.</h2>
 
-				{educations.map((education, educationIndex) => {
-					return <EducationItem key={educationIndex} {...education} />;
-				})}
+				<ol>
+					{educations.map((education, educationIndex) => {
+						return <EducationItem key={educationIndex} {...education} />;
+					})}
+				</ol>
 			</div>
 		</>
 	);

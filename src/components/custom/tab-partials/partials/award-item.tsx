@@ -17,10 +17,10 @@ export const AwardsItem = component$((props: AwardsItemProps) => {
 				<h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
 					{props.title}
 				</h3>
-				<time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-300">
+				<time class="block mb-2 text-sm font-normal leading-none text-slate-700 dark:text-navy-200">
 					{props.year}
 				</time>
-				<p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+				<p class="mb-4 text-base font-normal text-slate-700 dark:text-navy-200">
 					{props.description}
 				</p>
 			</li>

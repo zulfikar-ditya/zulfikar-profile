@@ -44,8 +44,11 @@
 	},
 	"dependencies": {
 		"@unpic/qwik": "^0.0.36",
+		"clsx": "^2.1.0",
 		"feather-icon": "^0.1.0",
+		"framer-motion": "^11.0.20",
 		"qwik-feather-icons": "^1.2.1",
+		"tailwind-merge": "^2.2.2",
 		"vercel": "^32.6.1"
 	}
 }

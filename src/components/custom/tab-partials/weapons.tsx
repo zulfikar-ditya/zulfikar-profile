@@ -20,7 +20,7 @@ export const Weapons = component$(() => {
 				<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 					<div class="group card__weapon">
 						<div class="card__weapon__head">
-							<ImgPhp class="h-32 object-contain" loading="lazy" />
+							<ImgPhp alt="ImgPhp" class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -30,7 +30,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgJavascript class="h-32 object-contain" loading="lazy" />
+							<ImgJavascript
+								alt="ImgJavascript"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -40,7 +44,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgTypescript class="h-32 object-contain" loading="lazy" />
+							<ImgTypescript
+								alt="ImgTypescript"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -50,7 +58,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgGolang class="h-32 object-contain" loading="lazy" />
+							<ImgGolang
+								alt="ImgGolang"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -60,7 +72,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgLaravel class="h-32 object-contain" loading="lazy" />
+							<ImgLaravel
+								alt="ImgLaravel"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -70,7 +86,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgPgsql class="h-32 object-contain" loading="lazy" />
+							<ImgPgsql
+								alt="ImgPgsql"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -80,7 +100,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgMysql class="h-32 object-contain" loading="lazy" />
+							<ImgMysql
+								alt="ImgMysql"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -90,7 +114,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgJquery class="h-32 object-contain" loading="lazy" />
+							<ImgJquery
+								alt="ImgJquery"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -100,7 +128,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgReact class="h-32 object-contain" loading="lazy" />
+							<ImgReact
+								alt="ImgReact"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -110,7 +142,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgNext class="h-32 object-contain" loading="lazy" />
+							<ImgNext
+								alt="ImgNext"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -120,7 +156,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgTailwindCss class="h-32 object-contain" loading="lazy" />
+							<ImgTailwindCss
+								alt="ImgTailwindCss"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
@@ -130,7 +170,11 @@ export const Weapons = component$(() => {
 					</div>
 					<div class="card__weapon">
 						<div class="card__weapon__head">
-							<ImgBootstrap class="h-32 object-contain" loading="lazy" />
+							<ImgBootstrap
+								alt="ImgBootstrap"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
 						</div>
 						<div class="pb-4 md:pb-6">
 							<p class="text-xl text-center tracking-widest text-gray-500">
