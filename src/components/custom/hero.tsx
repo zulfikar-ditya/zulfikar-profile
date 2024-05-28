@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import ImgProfile from "~/media/profile.png?jsx";
+import ImgProfile from "~/media/profile.jpg?jsx";
 import { IconSocial } from "./iconSocial";
 
 export const Hero = component$(() => {
