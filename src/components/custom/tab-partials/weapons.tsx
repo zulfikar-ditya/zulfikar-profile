@@ -11,6 +11,7 @@ import ImgReact from "~/media/react.png?jsx";
 import ImgNext from "~/media/nextjs.png?jsx";
 import ImgTailwindCss from "~/media/tailwindcss.png?jsx";
 import ImgBootstrap from "~/media/bootstrap.png?jsx";
+import ImgMendix from "~/media/mendix.png?jsx";
 
 export const Weapons = component$(() => {
 	return (
@@ -23,7 +24,7 @@ export const Weapons = component$(() => {
 							<ImgPhp alt="ImgPhp" class="h-32 object-contain" loading="lazy" />
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								PHP.
 							</p>
 						</div>
@@ -37,7 +38,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Javascript.
 							</p>
 						</div>
@@ -51,7 +52,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Typescript.
 							</p>
 						</div>
@@ -65,7 +66,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Go.
 							</p>
 						</div>
@@ -79,7 +80,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Laravel Framework.
 							</p>
 						</div>
@@ -93,7 +94,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Postgres.
 							</p>
 						</div>
@@ -107,7 +108,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Mysql.
 							</p>
 						</div>
@@ -121,7 +122,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Jquery.
 							</p>
 						</div>
@@ -135,7 +136,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								React js.
 							</p>
 						</div>
@@ -149,7 +150,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Next js.
 							</p>
 						</div>
@@ -163,7 +164,7 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Tailwindcss.
 							</p>
 						</div>
@@ -177,8 +178,22 @@ export const Weapons = component$(() => {
 							/>
 						</div>
 						<div class="pb-4 md:pb-6">
-							<p class="text-xl text-center tracking-widest text-gray-500">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
 								Boostrap Css.
+							</p>
+						</div>
+					</div>
+					<div class="card__weapon">
+						<div class="card__weapon__head">
+							<ImgMendix
+								alt="Mendix"
+								class="h-32 object-contain"
+								loading="lazy"
+							/>
+						</div>
+						<div class="pb-4 md:pb-6">
+							<p class="text-xl text-center tracking-widest text-slate-700 dark:text-navy-200">
+								Mendix Low Code
 							</p>
 						</div>
 					</div>

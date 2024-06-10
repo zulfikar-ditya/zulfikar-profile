@@ -39,11 +39,11 @@ export default component$(() => {
 				<Courses />
 			</div>
 
-			<div class="px-8 md:px-0">
+			<div class="bg-slate-200 dark:bg-slate-700 pt-5 pb-10 px-8 md:px-0">
 				<Educations />
 			</div>
 
-			<div class="bg-slate-200 dark:bg-slate-700 pt-5 pb-10 px-8 md:px-0">
+			<div class="">
 				<Awards />
 			</div>
 		</>
