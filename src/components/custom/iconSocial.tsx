@@ -57,7 +57,7 @@ export const IconSocial = component$(() => {
 				</div>
 				<div class="">
 					<a
-						href="https://drive.google.com/file/d/1-a526V5D_-3n2QYFeKP62cUntW24ebB5/view?usp=sharing"
+						href="https://drive.google.com/file/d/1Z1H-ffVTYIkofr6o5xii156avZGgKPYx/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 						title="Resume"
