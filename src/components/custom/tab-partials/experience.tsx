@@ -4,6 +4,17 @@ import { ExperienceItem } from "./partials/experience-item";
 export const Experience = component$(() => {
 	const experiences = [
 		{
+			title: "Backend Developer",
+			company: "SUPERFUTUREKOMPANY",
+			start: "September 2024",
+			end: "Present",
+			description: [
+				"-",
+				"-",
+				"-",
+			],
+		},
+		{
 			title: "Freelance Web Developer",
 			company: "Self Employed",
 			start: "May 2024",
@@ -22,7 +33,7 @@ export const Experience = component$(() => {
 			title: "Application developer officer",
 			company: "PT. Anomali Trans Teknologi",
 			start: "June 2023",
-			end: "Present",
+			end: "August 2024",
 			description: [
 				"Full-Stack Web Development Expertise: Building Scalable and User-Centric Applications",
 				"Database Architect & Data Master: Designed scalable database schemas using PostgreSQL, ensuring efficient data storage and retrieval for growing web applications. Aced writing complex SQL queries for seamless data manipulation, empowering various functionalities.",
