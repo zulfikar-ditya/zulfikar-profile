@@ -30,6 +30,17 @@ export const Experience = component$(() => {
 			],
 		},
 		{
+			title: "Mendix Developer",
+			company: "PT. Anomali Trans Teknologi",
+			start: "Sept 2023",
+			end: "Sept 2024",
+			description: [
+				"Work as Mendix developer",
+				"Bulding app for PT KAI Indonesia",
+				"Working as core developer for mendix project"
+			],
+		},
+		{
 			title: "Application developer officer",
 			company: "PT. Anomali Trans Teknologi",
 			start: "June 2023",

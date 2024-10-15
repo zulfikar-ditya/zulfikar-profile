@@ -4,6 +4,12 @@ import { EducationItem } from "./partials/education-item";
 export const Educations = component$(() => {
 	const educations = [
 		{
+			name: "Cakrawala University",
+			major: "Data Science",
+			from: "Sept 2024",
+			to: "Present",
+		},
+		{
 			name: "SMKN 1 Jenangan",
 			major: "Software Engineering",
 			from: "July 2019",
