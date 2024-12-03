@@ -20,6 +20,7 @@ export default component$(() => {
     <QwikCityProvider>
       <head>
         <meta charSet="utf-8" />
+        <meta name="google-site-verification" content="SjlrZnBfF0NOO11lm4GExHQRf9UM87k4de9teOQxKKc" />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
         <ServiceWorkerRegister />
